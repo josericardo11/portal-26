@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/config.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/api/open", "headers": [{ "key": "Cache-Control", "value": "no-store, max-age=0" }] }
+  ]
+}
